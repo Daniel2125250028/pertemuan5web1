@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        .sidebar{
+            grid-area: sidebar;
+            background: linear-gradient(to right, rgba(200,108,142,1), rgba(218,105,250,1))
+            rgba(110, 125, 253, 1);
+            justify-content: center;
+        }
+
+        .container {
+            font-size: 1.5em;
+            width: 100%;
+            height: 100;
+            height: 100vh;
+            display: grid;
+            grid-template-areas: "sidebar" "content" "footer";
+            grid-template-columns: 1fr;
+            grid-template-rows: 250px 800px 200px;
+        }
+
+        .action-btn{
+            display: inline-block;
+            text-decoration: none;
+            color: wheat;
+            font-weight: 700;
+            background-color: blue;
+            padding: 0.5em 2em;
+            border-radius: 60px;
+        }
+
+    </style>
+    <title>Web I Portofolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ol>
+                <li><a href="">About</a></li>
+                <li><a href="">Portofolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ol>
+        </div>
+        <main class="content">
+        <section class="hero">
+        <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/ishowspeed-image.jpg?width=900" alt=""
+        width="300" height="200">
+        <div class="hero-content">
+            <a href="" class="action-btn">Profesi</a>
+            <a href="" class="action-btn">Kocak</a>
+            <h2>Contoh Lain Menggunakan HTML5</h2> <br><br>
+            <p>Pemakaian HTML 5 Dengan Div</p>
+            <a href="" class="action-btn">Profile Saya</a>
+        </div>
+        </section>
+    </div>
+</body>
+</html>
